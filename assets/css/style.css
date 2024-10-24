@@ -140,3 +140,34 @@ header .navgation li a {
   background: #e51e2a;
   transform: translateY(-10px);
 }
+
+.icons li a img {
+  transform: scale(0.5);
+  filter: invert(1);
+}
+
+.boxImg {
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+}
+
+.boxImg img {
+  width: 200px;
+}
+
+.boxImg .img1 {
+  transform: rotate(-15deg);
+}
+
+.boxImg .img2 {
+  transform: rotate(5deg);
+}
+
+.boxImg .img3 {
+  transform: rotate(15deg);
+}
+
+.boxImg .img4 {
+  transform: rotate(-15deg);
+}
